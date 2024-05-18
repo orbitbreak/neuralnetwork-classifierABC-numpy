@@ -173,8 +173,11 @@ plt.show()
 print("\nTrained weights:\nw1:\n", w1, "\nw2:\n", w2)
 
 # classification/prediction
+print("\nChecking image of letter B, hopefully it guesses B...")
 predict(list_of_letter_flatvecs[1], w1, w2) # B
+print("\nChecking image of letter C, hopefully it guesses C...")
 predict(list_of_letter_flatvecs[2], w1, w2) # C
+print("\nChecking image of letter A, hopefully it guesses A...")
 predict(list_of_letter_flatvecs[0], w1, w2) # A
 
 
